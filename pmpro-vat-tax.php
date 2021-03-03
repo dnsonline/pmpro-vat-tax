@@ -165,8 +165,8 @@ function pmprovat_enqueue_scripts() {
 				'ajaxurl' => admin_url('admin-ajax.php'),
 				'timeout' => apply_filters("pmpro_ajax_timeout", 5000, 'applydiscountcode'),
 				'seller_country' => get_option('pmprovt_seller_country'),
-				'verified_text' => __('VAT number was verifed', 'pmprovat'),
-				'not_verified_text' => __('VAT number was not verifed. Please try again.', 'pmprovat'),				
+				'verified_text' => __('VAT number was verified', 'pmprovat'),
+				'not_verified_text' => __('VAT number was not verified. Please try again.', 'pmprovat'),				
 				'hide_vat_same_country' => apply_filters( 'pmprovat_hide_vat_if_same_country', true ),
 			)
 		);
